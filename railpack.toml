@@ -1,0 +1,18 @@
+[phases.install_node]
+commands = [
+    "npm ci",
+]
+
+[phases.install_php]
+commands = [
+    "composer install --no-dev --optimize-autoloader",
+]
+
+[phases.build]
+commands = [
+    "npm run build",
+]
+dependsOn = ["install_node", "install_php"]
+
+[start]
+command = "php -S 0.0.0.0:$PORT -t public"
