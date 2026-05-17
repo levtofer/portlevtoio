@@ -1,25 +1,4 @@
-<div align="center">
-  <div style="
-    background: #ffffff; 
-    border: 1px solid #e1e4e8; 
-    border-radius: 12px; 
-    padding: 16px; 
-    width: 250px;
-    transform: rotate(01deg);
-    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
-  ">
-    <img 
-      src="./readme/levtofer.png" 
-      width="100%" 
-      alt="Levtofer" 
-      style="border-radius: 8px;"
-    >
-    <div style="font-family: Lucida Handwriting; font-size: 14px; color: #6DA767; margin-top: 12px; font-weight: bold;">
-      Levtofer (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
-    </div>
-  </div>
-</div>
-
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="./readme/levtofer.png" width="400" alt="Laravel Logo"></a></p>
 ---
 
 # Portlevtoio
