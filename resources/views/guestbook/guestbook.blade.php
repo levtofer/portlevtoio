@@ -11,7 +11,7 @@
                 <span class="flex-1 h-px bg-ink/10"></span>
                 <a href="/" class="text-xs text-ink-3 hover:text-ink transition-colors">go back →</a>
             </div>
-            <p class="font-caveat text-sm text-ink-3">leave a note (>w<)< /p>
+            <p class="font-caveat text-sm text-ink-3">leave a note (>w<)</p>
         </div>
 
         {{-- FORM --}}
