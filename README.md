@@ -9,7 +9,7 @@
     box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
   ">
     <img 
-      src="./readme/banner.png" 
+      src="./readme/levtofer.png" 
       width="100%" 
       alt="Levtofer" 
       style="border-radius: 8px;"
