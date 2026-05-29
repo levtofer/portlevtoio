@@ -149,7 +149,7 @@
                     ],
                     [
                         'label' => 'geometry dash',
-                        'note' => 'late night sketching',
+                        'note' => 'john geometry dash',
                         'image' => 'https://upload.wikimedia.org/wikipedia/id/3/35/Geometry_Dash_Logo.PNG',
                         'rotate' => '-rotate-[1.5deg]',
                         'tape' => 'rotate-[-6deg]',
@@ -158,7 +158,7 @@
                     ],
                     [
                         'label' => 'die of death',
-                        'note' => 'comfort watch',
+                        'note' => 'ahh, fresh meat',
                         'image' => 'https://pbs.twimg.com/media/Gwz1xNuXAAAMx3a.jpg',
                         'rotate' => 'rotate-[-2deg]',
                         'tape' => 'rotate-[8deg]',
@@ -167,7 +167,7 @@
                     ],
                     [
                         'label' => 'grace',
-                        'note' => 'capturing mood',
+                        'note' => 'i'm parrying it oh',
                         'image' =>
                             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3ujNs4l_Mb0aKT12jxui9MR12cfQ08n__A&s',
                         'rotate' => '-rotate-[-2deg]',
