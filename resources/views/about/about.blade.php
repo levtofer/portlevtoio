@@ -167,7 +167,7 @@
                     ],
                     [
                         'label' => 'grace',
-                        'note' => 'i'm parrying it oh',
+                        'note' => 'i\'m parrying it oh',
                         'image' =>
                             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3ujNs4l_Mb0aKT12jxui9MR12cfQ08n__A&s',
                         'rotate' => '-rotate-[-2deg]',
