@@ -21,7 +21,7 @@
                             class="w-28 h-28 md:w-36 md:h-36 rounded-2xl border-2 border-ink/10 object-cover rotate-[-2deg] shadow-md">
                         <span
                             class="absolute -bottom-3 -right-3 font-caveat text-xs text-accent bg-paper border border-accent/20 px-2 py-1 rounded-lg rotate-[3deg] shadow-sm">
-                            he/they ✦
+                            it/its ✦
                         </span>
                     </div>
 
