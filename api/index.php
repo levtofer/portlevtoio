@@ -18,5 +18,7 @@ echo "public/index.php exists: " . (file_exists($index) ? 'YES' : 'NO') . "<br>"
 echo "APP_KEY set: " . (!empty($_ENV['APP_KEY']) ? 'YES' : 'NO') . "<br>";
 echo "APP_ENV: " . ($_ENV['APP_ENV'] ?? 'NOT SET') . "<br>";
 
+echo "ver 1";
+
 // Now try booting Laravel
 require __DIR__ . '/../public/index.php';
