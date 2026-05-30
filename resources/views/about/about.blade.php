@@ -185,7 +185,7 @@
                     //     'size' => 'w-16 h-16',
                     // ],
                     // [
-                    //     'label' => 'open source',
+                    //     'label' => 'open sourcewwww',
                     //     'note' => 'learning in public',
                     //     'image' => 'https://placehold.co/96x96/ece4d6/8c7d6e?text=%3C%2F%3E',
                     //     'rotate' => 'rotate-[1.5deg]',
