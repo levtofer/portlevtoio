@@ -3,10 +3,8 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-// Fix read-only filesystem by redirecting to /tmp
-$app = require_once __DIR__ . '/../bootstrap/app.php';
-
-$app->useStoragePath('/tmp/storage');
+// Load autoloader FIRST
+require_once __DIR__ . '/../vendor/autoload.php';
 
 // Create required directories in /tmp
 $dirs = [
@@ -23,8 +21,12 @@ foreach ($dirs as $dir) {
     }
 }
 
-// Point bootstrap cache to /tmp too
-app()->useBootstrapPath('/tmp/bootstrap');
+// Bootstrap app
+$app = require_once __DIR__ . '/../bootstrap/app.php';
+
+// Redirect storage and bootstrap cache to /tmp
+$app->useStoragePath('/tmp/storage');
+$app->useBootstrapPath('/tmp/bootstrap');
 
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 $response = $kernel->handle(
