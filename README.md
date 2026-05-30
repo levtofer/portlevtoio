@@ -45,7 +45,7 @@ there are total 10 pages, with 8 being public pages and 2 for utility pages
 
 ### utility
 
-* `/api/music` - music widget endpoint
+* `/music/now` - music widget endpoint
 * `404` - error page
 
 ## Features

@@ -62,7 +62,7 @@ Route::get('/contact', function () {
     return view('contact.contact');
 })->name('contact');
 
-Route::get('/api/music', function () {
+Route::get('/music/now', function () {
     $key      = env('LASTFM_API_KEY');
     $username = env('LASTFM_USERNAME');
 

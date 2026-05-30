@@ -36,7 +36,7 @@ window.musicWidget = function () {
         },
         async fetch() {
             try {
-                const res = await window.fetch("/api/music");
+                const res = await window.fetch("/music/now");
                 const data = await res.json();
                 this.track = data.track;
                 this.artist = data.artist;
