@@ -5,21 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>404 — lost</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
         rel="stylesheet">
     <?php
-$manifest = json_decode(file_get_contents(public_path('build/manifest.json')), true);
-$css = $manifest['resources/css/app.css']['file'] ?? '';
-$js = $manifest['resources/js/app.js']['file'] ?? '';
-?>
+    $manifest = json_decode(file_get_contents(public_path('build/manifest.json')), true);
+    $css = $manifest['resources/css/app.css']['file'] ?? '';
+    $js = $manifest['resources/js/app.js']['file'] ?? '';
+    ?>
     <link rel="stylesheet" href="/build/{{ $css }}">
     <script src="/build/{{ $js }}" defer></script>
 </head>
 
-<body class="bg-paper-3 text-ink min-h-screen flex items-center justify-center p-8 x-data=" { sidebarOpen: false,
-    ...darkMode() }" x-init="init()">
+<body x-data="{ sidebarOpen: false, ...darkMode() }" x-init="init()"
+    class="bg-paper-3 text-ink min-h-screen flex items-center justify-center p-8">
 
     <div class="flex flex-col items-center gap-6 text-center max-w-md">
 
