@@ -8,6 +8,28 @@ use App\Http\Controllers\GuestbookController;
 use App\Http\Controllers\GalleryController;
 use Illuminate\Support\Facades\Http;
 
+Route::get('/debug', function () {
+    $checks = [
+        'php_version' => phpversion(),
+        'app_env' => env('APP_ENV'),
+        'app_key_set' => !empty(env('APP_KEY')),
+        'app_url' => env('APP_URL'),
+        'db_host' => env('DB_HOST'),
+        'db_connection' => env('DB_CONNECTION'),
+    ];
+
+    // Test DB connection
+    try {
+        DB::connection()->getPdo();
+        $checks['db_connected'] = true;
+    } catch (\Exception $e) {
+        $checks['db_connected'] = false;
+        $checks['db_error'] = $e->getMessage();
+    }
+
+    return response()->json($checks);
+});
+
 Route::get('/', function () {
     $projects = Project::where('featured', true)
         ->where('status', 'published')
