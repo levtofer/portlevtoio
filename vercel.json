@@ -13,12 +13,8 @@
             "dest": "/build/$1"
         },
         {
-            "src": "/favicon.ico",
-            "dest": "/favicon.ico"
-        },
-        {
-            "src": "/robots.txt",
-            "dest": "/robots.txt"
+            "src": "/(.*\\.(ico|png|jpg|jpeg|gif|svg|webp|mp3|mp4|wav|ogg|woff|woff2|ttf|eot|css|js|pdf|zip|txt|xml|json))",
+            "dest": "/$1"
         },
         {
             "src": "/(.*)",
