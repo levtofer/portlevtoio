@@ -27,7 +27,7 @@ $js = $manifest['resources/js/app.js']['file'] ?? '';
         <div class="relative">
             <span class="font-caveat text-[8rem] font-bold text-ink/10 leading-none select-none">404</span>
             <div class="absolute inset-0 flex items-center justify-center">
-                <div class="bg-paper border border-ink/10 rounded-2xl px-6 py-3 rotate-[-2deg] shadow-sm">
+                <div class="bg-paper border border-ink/10 rounded-2xl px-6 py-3 shadow-sm">
                     <span class="font-caveat text-xl text-ink">you seem lost (TwT)</span>
                 </div>
             </div>
@@ -36,7 +36,6 @@ $js = $manifest['resources/js/app.js']['file'] ?? '';
         {{-- torn note --}}
         <div class="relative bg-paper border border-ink/10 rounded-sm px-8 py-6 rotate-[1deg] shadow-sm max-w-xs"
             style="clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 96% 95%, 92% 90%, 88% 96%, 84% 91%, 80% 96%, 76% 92%, 72% 97%, 68% 92%, 64% 96%, 60% 91%, 56% 96%, 52% 92%, 48% 97%, 44% 92%, 40% 96%, 36% 91%, 32% 96%, 28% 92%, 24% 97%, 20% 92%, 16% 96%, 12% 91%, 8% 96%, 4% 92%, 0% 97%)">
-            <span class="absolute -top-3 left-6 w-6 h-3 bg-paper-2 border border-ink/10 rotate-[-6deg]"></span>
             <p class="font-caveat text-sm text-ink-2 leading-relaxed">
                 this page doesn't exist,<br>
                 or maybe it used to.<br>
