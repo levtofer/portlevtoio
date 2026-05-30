@@ -7,6 +7,22 @@
             "runtime": "vercel-php@0.7.2"
         }
     },
+    "env": {
+        "APP_NAME": "@app_name",
+        "APP_ENV": "@app_env",
+        "APP_KEY": "@app_key",
+        "APP_DEBUG": "@app_debug",
+        "APP_URL": "@app_url",
+        "DB_CONNECTION": "@db_connection",
+        "DB_HOST": "@db_host",
+        "DB_PORT": "@db_port",
+        "DB_DATABASE": "@db_database",
+        "DB_USERNAME": "@db_username",
+        "DB_PASSWORD": "@db_password",
+        "LASTFM_API_KEY": "@lastfm_api_key",
+        "LASTFM_API_SECRET": "@lastfm_api_secret",
+        "LASTFM_USERNAME": "@lastfm_username"
+    },
     "routes": [
         {
             "src": "/(.*)",
