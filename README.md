@@ -14,7 +14,7 @@ Portlevtoio is a portfolio by / for Levtofer. Well, the website itself just bunc
 
 * Laravel
 * PHP
-* MySQL
+* PostgreSQL
 
 ### frontend
 
@@ -26,7 +26,8 @@ Portlevtoio is a portfolio by / for Levtofer. Well, the website itself just bunc
 
 * VS Code
 * Git & GitHub
-* Laragon
+* Vercel
+* Supabase
 
 ## Pages
 
