@@ -99,7 +99,10 @@ MD,
         ];
 
         foreach ($projects as $project) {
-            Project::create($project);
+            Project::updateOrCreate(
+                ['slug' => \Illuminate\Support\Str::slug($project['title'])],
+                $project
+            );
         }
     }
 }
